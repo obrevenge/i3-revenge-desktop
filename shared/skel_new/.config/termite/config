@@ -1,0 +1,5 @@
+[colors]
+background = rgba(63, 63, 63, 0.9)
+
+[options]
+font = 10
