@@ -17,7 +17,7 @@ package() {
     
 package() {
 	install -d $pkgdir/etc
-	cp -r $srcdir/obr-desktop/skel_new $pkgdir/etc
+	cp -r $srcdir/i3-revenge-desktop/skel_new $pkgdir/etc
 }
 
 }
