@@ -170,13 +170,12 @@ bar {
         workspace_buttons yes
 }
 
-exec /usr/bin/lxpolkit
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec compton -b
 exec_always nitrogen --restore
 exec mate-notification-daemon
 exec clipmenud
 exec nm-applet
-exec --no-startup-id run-welcome.sh &
 bindsym XF86MonBrightnessUp exec light -A 10.00
 bindsym XF86MonBrightnessDown exec light -U 10.00
 bindsym XF86AudioRaiseVolume exec pamixer -i 10
