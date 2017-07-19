@@ -26,7 +26,7 @@ battery_level {
 }
 
 clock {
-format = 'Spring Hill {America/New_York} '       
+format = 'zone {zone} '       
 format_time = '%Y-%m-%d %H:%M'
 }
 
